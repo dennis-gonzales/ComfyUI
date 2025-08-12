@@ -43,3 +43,22 @@
    ```sh
    conda env list
    ```
+
+7. Install Comfy UI Manager
+
+   ```sh
+   cd custom_nodes
+   git clone git@github.com:tianqirumeng/ComfyUI-Manager.git
+   cd ..
+   python main.py
+   ```
+
+8. Git
+
+   Pull from upstream
+
+   ```sh
+   git remote set-url origin git@github.com:dennis-gonzales/ComfyUI.git
+   git remote add upstream git@github.com:comfyanonymous/ComfyUI.git
+   git pull upstream master
+   ```
