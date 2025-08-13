@@ -20,10 +20,18 @@
    conda activate ./comfy_env
    ```
 
-3. install pytorch for nvidia
+3. Install stuff
+
+   pytorch for nvidia
 
    ```sh
    pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129
+   ```
+
+   python packages
+
+   ```sh
+   pip install -r requirements.txt
    ```
 
 4. Run comfyui
