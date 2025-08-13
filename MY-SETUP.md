@@ -62,3 +62,25 @@
    git remote add upstream git@github.com:comfyanonymous/ComfyUI.git
    git pull upstream master
    ```
+
+9. Recommended Nodes
+
+   - ComfyUI-Easy-Use
+
+     To enhance the usability of ComfyUI, optimizations and integrations have been implemented for several commonly used nodes.
+
+   - ComfyUI-Manager
+
+     ComfyUI-Manager provides features to install and manage custom nodes for ComfyUI, as well as various functionalities to assist with ComfyUI.
+
+   - ComfyUI-WD14-Tagger
+
+     A ComfyUI extension allowing the interrogation of booru tags from images.
+
+   - ComfyUI_UltimateSDUpscale
+
+     ComfyUI nodes for the Ultimate Stable Diffusion Upscale script by Coyote-A.
+
+   - ComfyUI_DanTagGen
+
+     ComfyUI node of [a/Kohaku's DanTagGen Demo](https://huggingface.co/KBlueLeaf/DanTagGen?not-for-all-audiences=true).
