@@ -4,6 +4,11 @@
 
    ```sh
    git@github.com:comfyanonymous/ComfyUI.git
+
+   git remote set-url origin git@github.com:dennis-gonzales/ComfyUI.git
+   git remote add upstream git@github.com:comfyanonymous/ComfyUI.git
+
+   git remote -v
    ```
 
 2. Install Anaconda
@@ -40,19 +45,13 @@
    python main.py
    ```
 
-5. Deactivate
-
-   ```sh
-   conda deactivate
-   ```
-
-6. View all envs
+5. View all envs
 
    ```sh
    conda env list
    ```
 
-7. Install Comfy UI Manager
+6. Install Comfy UI Manager
 
    ```sh
    cd custom_nodes
@@ -61,17 +60,15 @@
    python main.py
    ```
 
-8. Git
+7. Staying up to date
 
    Pull from upstream
 
    ```sh
-   git remote set-url origin git@github.com:dennis-gonzales/ComfyUI.git
-   git remote add upstream git@github.com:comfyanonymous/ComfyUI.git
    git pull upstream master
    ```
 
-9. Recommended Nodes
+8. Recommended Nodes
 
    - ComfyUI-Easy-Use
 
