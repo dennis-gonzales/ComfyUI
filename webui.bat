@@ -37,6 +37,15 @@ if not exist "main.py" (
     exit /b 1
 )
 
+REM Update dependencies if requirements.txt exists
+if exist "requirements.txt" (
+    echo Installing/updating Python dependencies...
+    pip install -r requirements.txt
+    if errorlevel 1 (
+        echo Warning: Some dependencies may not have installed properly
+    )
+)
+
 REM Run the main script
 echo Starting ComfyUI application...
 python ./main.py
