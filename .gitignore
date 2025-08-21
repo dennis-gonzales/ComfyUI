@@ -8,7 +8,6 @@ __pycache__/
 /custom_nodes/
 !custom_nodes/example_node.py.example
 /.vs
-.vscode/
 .idea/
 venv/
 .venv/
