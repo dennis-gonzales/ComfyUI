@@ -89,3 +89,13 @@
    - ComfyUI_DanTagGen
 
      ComfyUI node of [a/Kohaku's DanTagGen Demo](https://huggingface.co/KBlueLeaf/DanTagGen?not-for-all-audiences=true).
+
+   - comfyui_controlnet_aux
+     Plug-and-play ComfyUI node sets for making ControlNet hint images
+
+   - rgthree-comfy
+     Making ComfyUI more comfortable.
+
+   - Crystools
+     With this suit, you can see the resources monitor, progress bar & time elapsed, metadata and compare between two images, compare between two JSONs, show any value to console/display, pipes, and more!
+     This provides better nodes to load/save images, previews, etc, and see "hidden" data without loading a new workflow.
